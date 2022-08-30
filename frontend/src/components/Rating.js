@@ -65,7 +65,7 @@ const Rating = ({value, text, color}) => {
 
 
         
-        
+
         <span>{text && text}</span>
     </div>
   )
@@ -73,7 +73,7 @@ const Rating = ({value, text, color}) => {
 
 Rating.defaultProps = {
     //color: 'rgb(55,141,252)',
-    color: '#f8e815',
+    color: '#FFCF40',
 }
 Rating.prototype = {
     value: PropTypes.number.isRequerired,

@@ -9,3 +9,16 @@ h3{
 .rating span{
     margin: 0.1rem;
 }
+
+.content-product {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.4rem;
+}
+.gbcolor-gray{
+    background-color: #F0F5FA;
+}
+.border{
+    border: solid 1px #dddddd;
+}
