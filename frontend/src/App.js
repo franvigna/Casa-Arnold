@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
 import LoginScreen from './screens/LoginScreen'
+import CartScreen from './screens/CartScreen'
 
 const App = () => {
     return (
@@ -19,7 +20,9 @@ const App = () => {
                             path='/product/:id'
                             element={<ProductScreen />}
                         />
-                        <Route path='/login' element={<LoginScreen />} />
+              <Route path='/login' element={<LoginScreen />} />
+              <Route path='/cart' element={<CartScreen />} />
+
                     </Routes>
                 </Container>
             </main>
