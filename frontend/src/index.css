@@ -22,3 +22,38 @@ h3{
 .border{
     border: solid 1px #dddddd;
 }
+.LoginScreen{
+    font-family: sans-serif;
+    text-align: center;
+}
+.container-login {
+   margin: 0 auto;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    .container-login {
+        max-width: 90%;
+    }
+     
+}
+
+
+.loginform{
+    padding: 30px;
+}
+.form-check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.form-control{
+    margin:3px;
+}
+
+.form-check-input{
+    width: 20px;
+    height: 20px;
+}
