@@ -28,7 +28,7 @@ const ProductScreen = () => {
                     <Col className='products-container' md={12} lg={7}>
                         {/* fluid es para que la imagen no se pase */}
                         <Image
-                            className='img-products rounded mx-auto d-block'
+                            className='img-products img rounded mx-auto d-block'
                             src={product.image}
                             alt={product.name}
                             fluid
@@ -58,7 +58,9 @@ const ProductScreen = () => {
                                 <Row>
                                     <Col>Price:</Col>
                                     <Col>
-                                        <strong>${product.price}</strong>
+                                        <strong>
+                                            ${product.price}
+                                        </strong>
                                     </Col>
                                 </Row>
                             </ListGroup.Item>

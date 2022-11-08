@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Row, Col} from 'react-bootstrap'
 import Product from "../components/Product"
+import AboutUs from '../components/AboutUs'
+import Hero from '../components/Hero'
 import axios from 'axios'
 
 const HomeScreen = () => {
@@ -19,6 +21,9 @@ const HomeScreen = () => {
 
   return (
     <>
+      <Hero/>
+
+      <AboutUs/>
         <h2>Últimos Productos</h2>
         <Row>
             {products.map(product => (

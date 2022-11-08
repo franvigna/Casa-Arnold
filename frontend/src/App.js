@@ -8,10 +8,12 @@ import ProductScreen from './screens/ProductScreen'
 import LoginScreen from './screens/LoginScreen'
 import CartScreen from './screens/CartScreen'
 
+
 const App = () => {
     return (
         <Router>
             <Header />
+            
             <main className='py-3'>
                 <Container>
                     <Routes>
